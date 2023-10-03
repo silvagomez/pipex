@@ -4,6 +4,11 @@
 #include <unistd.h>
 
 /*
+ * The memory is copied:
+ * Each process has a copy of its own variables, when is forked process get the
+ * same values.
+ * The memory place where they are allocated is different.
+ *
  * The main process 6 7 8 9 10
  * The child proccess 1 2 3 4 5
  *
