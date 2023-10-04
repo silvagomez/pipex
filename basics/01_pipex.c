@@ -5,6 +5,8 @@
 #include <unistd.h>
 
 /*
+ * The fork() in C.
+ *
  * Two process to the power of n time fork() is called.
  * 2^n of process.
  * In this example there will 16 prints.

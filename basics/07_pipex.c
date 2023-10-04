@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 
 /*
+ * Process IDs in C.
  */
 int	main(int ac, char *ag[])
 {

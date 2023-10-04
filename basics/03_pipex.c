@@ -4,6 +4,8 @@
 #include <unistd.h>
 
 /*
+ * Waiting for processes to finish using wait() in C.
+ *
  * The memory is copied:
  * Each process has a copy of its own variables, when is forked process get the
  * same values.

@@ -5,6 +5,8 @@
 #include <sys/wait.h>
 
 /*
+ * Waiting for processes to finish using wait() in C.
+ *
  * wait() function.
  * What wait does is stop the execution until a child process has finished
  * executing.

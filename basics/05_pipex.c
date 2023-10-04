@@ -5,6 +5,8 @@
 #include <sys/wait.h>
 
 /*
+ * Process IDs in C.
+ *
  * Every single process in unix has id, is unique.
  * THe output will be:
  * CHILD => Child id, main/parent id.

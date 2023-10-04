@@ -5,6 +5,8 @@
 #include <sys/wait.h>
 
 /*
+ * Process IDs in C.
+ *
  * In this case id == 0 (child), child wait 1 second with sleep.
  * The parent process will terminate the process.
  * The parent id of the child won't be the parent id, because the parent process

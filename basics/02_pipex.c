@@ -5,6 +5,8 @@
 #include <unistd.h>
 
 /*
+ * The fork() in C.
+ *
  * This case create only 3 process.
  * 3 hello will be printed.
  */
