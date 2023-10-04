@@ -40,6 +40,21 @@ all		:
 		@echo -e
 		@./_unix
 
+08		:
+		cc -Wall -Wextra -Werror 08_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
+09		:
+		cc -Wall -Wextra -Werror 09_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
+10		:
+		cc -Wall -Wextra -Werror 10_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
 fclean	:
 		rm *unix
 
