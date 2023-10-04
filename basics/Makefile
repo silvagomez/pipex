@@ -55,6 +55,26 @@ all		:
 		@echo -e
 		@./_unix
 
+11		:
+		cc -Wall -Wextra -Werror 11_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
+12		:
+		cc -Wall -Wextra -Werror 12_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
+13		:
+		cc -Wall -Wextra -Werror 13_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
+14		:
+		cc -Wall -Wextra -Werror 14_pipex.c -o _unix 
+		@echo -e
+		@./_unix
+
 fclean	:
 		rm *unix
 
