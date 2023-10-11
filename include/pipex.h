@@ -6,7 +6,7 @@
 /*   By: dsilva-g <dsilva-g@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:35:08 by dsilva-g          #+#    #+#             */
-/*   Updated: 2023/10/10 19:34:30 by dsilva-g         ###   ########.fr       */
+/*   Updated: 2023/10/11 16:13:11 by dsilva-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,10 +24,14 @@
 
 typedef struct s_pipex
 {
-	int		fd[2];
+	int		p_fd[2];
+	int		f_fd;
 	pid_t	pid;
-	int		file;
-
+	char	*env;
+	char	*path_1;
+	char	*path_2;
+	char	**cmd_1;
+	char	**cmd_2;
 }				t_pipex;
 
 #endif
