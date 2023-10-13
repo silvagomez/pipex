@@ -6,7 +6,7 @@
 /*   By: dsilva-g <dsilva-g@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:16:27 by dsilva-g          #+#    #+#             */
-/*   Updated: 2023/10/11 16:17:06 by dsilva-g         ###   ########.fr       */
+/*   Updated: 2023/10/13 12:24:29 by dsilva-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int	main(int ac, char *av[], char *env[])
 	else
 	{
 		wait(NULL);
-		//close(px.p_fd[1]);
+		close(px.p_fd[1]);
 		px.f_fd = open("outfile", O_CREAT | O_TRUNC | O_RDWR, 0777);
 		ft_printf("Parent process\n");
 		if (px.f_fd < 0)
